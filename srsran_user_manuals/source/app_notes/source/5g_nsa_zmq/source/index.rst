@@ -284,7 +284,7 @@ With the network and the iPerf server up and running, the client can be run from
 
 	sudo ip netns exec ue1 iperf3 -c 172.16.0.1 -b 10M -i 1 -t 60 
 
-Traffic will now be sent from the UE to the eNB. This will be shown in both the server and client consoles, and also in the trace for both the UE and the eNB. Example **client** iPerf output:
+Traffic will now be sent from the UE to the eNB. This will be shown in both the server and client consoles, and also in the trace for both the UE and the eNB. Example **client** iPerf output::
 
 	Connecting to host 172.16.0.1, port 5201                                                              
 	[  5] local 172.16.0.2 port 52484 connected to 172.16.0.1 port 5201              
